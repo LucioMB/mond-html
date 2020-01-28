@@ -1,5 +1,5 @@
 footer {
-    background-color: #333;
+    background-color: #20272f;
     padding: 0 0 50px 0;
 }
 
@@ -35,13 +35,13 @@ footer {
 }
 
 .f-img-gh {
-    width: 150px;
-    height: 60px;
+    width: auto;
+    height: 70px;
 }
 
 .f-img-2 {
     width: 40px;
-    padding: 0 5px 0 5px;
+    padding: 0 0 0 0;
 }
 
 .f-h5 {
