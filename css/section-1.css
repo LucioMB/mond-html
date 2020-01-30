@@ -17,10 +17,151 @@
     width: 100px;
     height: 750px;
 }
-
+ 
 .s1-mondora-2a {
     width: 700px;
     height: 580px;
     padding-left: 20px;
     padding-right: 50px;
+}
+
+@media screen and (max-width: 1399px) {
+    .s1-section-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .s1-mondora-2a {
+        width: 550px;
+        height: 460px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .s1-barr {
+        width: auto;
+        height: 650px;
+    }
+    .s1-div {
+        width: 500px;
+        vertical-align: middle;
+        text-justify: auto;
+        margin: 0 0 0 0;
+        padding: 0 20px 0 20px;
+    }    
+}
+
+@media screen and (max-width: 1199px) {
+    .s1-mondora-2a {
+        width: 490px;
+        height: 410px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .s1-barr {
+        width: auto;
+        height: 590px;
+    }
+    .s1-div {
+        width: 500px;
+        text-justify: auto;
+        margin: 0 0 0 0;
+        padding: 0 20px 0 20px;
+    }    
+}
+
+@media screen and (max-width: 999px) {
+    .s1-mondora-2a {
+        width: 420px;
+        height: 350px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .s1-barr {
+        width: auto;
+        height: 520px;
+    }
+    .s1-div {
+        width: 450px;
+        vertical-align: middle;
+        text-justify: auto;
+        margin: 0 0 0 0;
+        padding: 0 20px 0 20px;
+    }    
+}
+
+@media screen and (max-width: 755px) {
+    .s1-section-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 0;
+    }
+    .s1-mondora-2a {
+        background-color: #fff;
+        width: 550px;
+        height: 460px;
+        padding-left: 0px;
+        padding-right: 0px;
+        z-index: 2;
+        align-self: center;
+    }
+    .s1-barr {
+        width: auto;
+        height: 500px;
+        z-index: 1;
+        position: absolute;
+        bottom: -160px;
+        align-self: center;
+    }
+    .s1-div {
+        width: 100%;
+        margin: -180px 0 0 0;
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+    }    
+}
+
+@media screen and (max-width: 515px) {
+    .s1-barr {
+        width: auto;
+        height: 400px;
+        z-index: 1;
+        position: absolute;
+        bottom: -190px;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 450px) and (max-height: 820px) {
+    .s1-section-1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 0;
+    }
+    .s1-mondora-2a {
+        background-color: #fff;
+        width: 350px;
+        height: 330px;
+        padding-left: 0px;
+        padding-right: 0px;
+        z-index: 2;
+        align-self: center;
+    }
+    .s1-barr {
+        width: auto;
+        height: 400px;
+        z-index: 1;
+        position: absolute;
+        bottom: -50px;
+        align-self: center;
+    }
+    .s1-div {
+        width: 100%;
+        margin: -180px 0 0 0;
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+    }    
+
 }

@@ -31,6 +31,7 @@
     width: 48%;
     margin: 0 0 0px 0;
     padding-bottom: 0px;
+    padding-right: 20px;
 }
 
 .s4-img-1 {
@@ -47,4 +48,22 @@
 
 .s4-h2 {
     padding: 120px 0 20px 0;
+}
+
+@media screen and (max-width: 1399px) {
+    .s4-img-2 {
+        width: 1180px;
+        height: auto;
+    }
+    .s4-div-3a {
+        margin: 0 0 0 0px;
+        padding: 0 0 0 580px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .s4-img-2 {
+        width: 900px;
+        height: auto;
+    }
 }
